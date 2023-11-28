@@ -24,6 +24,11 @@ a:hover {
 
 }
 
+.welcomebar {
+    display: flex
+
+}
+
 .welcomebox {
     flex: auto;
     height: 120px;
@@ -64,18 +69,16 @@ a:hover {
     background-color: rgb(255, 255, 255);
     text-align: center;
     flex: auto;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-bottom: 2px solid;
 }
 
-
-
-.welcomebar {
-    display: flex
-
+.njwwicon {
+    background-color: white;
+    width: 100px;
 }
 
 .njwwimg {
@@ -93,18 +96,22 @@ a:hover {
     margin-top: 25px;
 }
 
-.nug1,
-.nug2 {
+.item {
     height: 200px;
     width: 250px;
     margin: 30px;
 }
 
-.weedbox {
+.itembox {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     font-size: 25px;
+}
+
+.itemimg {
+    width: 260px;
+    height: 200px;
 }
 
 .weedbox p {
@@ -113,11 +120,6 @@ a:hover {
 
 .weedinfobox {
     display: flex;
-}
-
-.njwwicon {
-    background-color: white;
-    width: 100px;
 }
 
 .footer {
@@ -133,9 +135,4 @@ a:hover {
 
 .footertxt a {
     color: rgb(184, 107, 7);
-}
-
-
-.topbox {
-    display: flex;
 }
