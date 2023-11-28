@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    background-color: rgb(232, 232, 232);
+}
+
+.bg {
+    margin: auto;
+    font-family: Trebuchet MS;
+}
+
+.container {
+    height: 1440px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    flex: 1;
+}
+
+.welcomebox {
+    flex: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbars {
+    display: flex;
+}
+
+.hzbar {
+    border-bottom: 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+
+.hztxt {
+    font-size: 32px;
+    margin: auto;
+
+}
+
+.contentbox {
+    background-color: rgb(255, 255, 255);
+    height: 385px;
+    display: flex;  
+    justify-content: center;
+    border-bottom: 2px solid;
+}
+
+.contentbox2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+
+
+.welcomebar {
+    display: flex
+}
+
+.njwwimg {
+    display: flex;
+    height: 125px;
+    height: 125px;
+}
+
+.njwwbanner {
+    height: 75px;
+    width: 775px;
+}
+
+.bannerbox {
+    margin-top: 25px;
+}
+
+.weedbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.weedbox p {
+    margin: -15px;
+}
+
+.weedinfobox {
+    display: flex;
+}
+
+.njwwicon {
+    height:125px;
+    width: 100px;
+}
+
+.footer {
+    margin: auto;
+    background-color: rgb(194, 194, 194);
+    height: 20px;
+    width: 1000px;
+}
+
+.footertxt {
+    color: rgb(60, 60, 60);
+    text-align: center;
+}
+
+.sherbpic {
+    height: 350px;
+    width: 575px;
+    margin-right: 50px;
+}
+
+.nuginfo {
+    font-size: 25px;
+    text-align: left;
+
+}
+
+.nug1 {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footertxt {
+    text-align: center;
+    color: rgb(89, 89, 89);
+}
+
+.footertxt a {
+    color: rgb(184, 107, 7);
+}

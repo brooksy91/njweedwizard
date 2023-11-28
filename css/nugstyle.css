@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    background-color: rgb(232, 232, 232);
+}
+
+.bg {
+    margin: auto;
+    font-family: Trebuchet MS;
+}
+
+.container {
+    height: 1440px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    flex: 1;
+}
+
+.welcomebox {
+    flex: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbars {
+    display: flex;
+}
+
+.hzbar {
+    border-bottom: 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+
+.hztxt {
+    font-size: 29px;
+    margin: auto;
+
+}
+
+.contentbox {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    flex: auto;
+    height: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid;
+}
+
+.browsemore {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        flex: auto;
+        height: flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid;
+    }
+
+.reviewbox {
+    height: flex;
+    text-align: left;
+    border-bottom: 2px solid;
+}
+
+.reviewbox a {
+    
+    color: rgb(22, 87, 22)
+}
+
+.welcomebar {
+    display: flex
+}
+
+.njwwimg {
+    display: flex;
+    height: 125px;
+    height: 125px;
+}
+
+.njwwbanner {
+    height: 75px;
+    width: 775px;
+}
+
+.bannerbox {
+    margin-top: 25px;
+}
+
+.nuginfo {
+    font-size: 28px;
+}
+
+.nug1 {
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.reviewbox {
+    border-bottom: 2px solid;
+}
+
+
+.weedbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.weedbox p {
+    margin: -15px;
+}
+
+.weedinfobox {
+    display: flex;
+}
+
+.njwwicon {
+    height:125px;
+    width: 100px;
+}
+
+.footer {
+   margin-top: auto;
+   text-align: center;
+   justify-content: center;
+}
+
+.sherbpic {
+    width: 450px;
+    height: 400px;
+    margin: 50px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footertxt {
+    text-align: center;
+    color: rgb(89, 89, 89);
+}
+
+.footertxt a {
+    color: rgb(184, 107, 7);
+}

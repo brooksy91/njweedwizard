@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(232, 232, 232);
+}
+
+.bg {
+    margin: auto;
+    font-family: Trebuchet MS;
+}
+
+.container {
+    flex: 1;
+
+}
+
+.welcomebox {
+    flex: auto;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbars {
+    display: flex;
+}
+
+.hzbar {
+    border-bottom: 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+}
+
+
+.hztxt {
+    font-size: 32px;
+    margin: auto;
+
+}
+
+.contentbox {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+
+.contentbox2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+
+
+
+.welcomebar {
+    display: flex
+
+}
+
+.njwwimg {
+    display: flex;
+    height: 125px;
+    height: 125px;
+}
+
+.njwwbanner {
+    height: 75px;
+    width: 775px;
+}
+
+.bannerbox {
+    margin-top: 25px;
+}
+
+.nug1,
+.nug2 {
+    height: 200px;
+    width: 250px;
+    margin: 30px;
+}
+
+.weedbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.weedbox p {
+    margin: -15px;
+}
+
+.weedinfobox {
+    display: flex;
+}
+
+.njwwicon {
+    background-color: white;
+    width: 100px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footertxt {
+    color: rgb(89, 89, 89);
+}
+
+.footertxt a {
+    color: rgb(184, 107, 7);
+}
+
+
+.topbox {
+    display: flex;
+}
