@@ -16,6 +16,9 @@
 </script>
 
 
+<script src="/getdata.js"></script>
+
+
     <link rel="stylesheet" href="/css/nugstyle.css">
     <meta charset="UTF-8">
     <title>NJWW - New Jersey Cannabis Reviews</title>
@@ -24,57 +27,59 @@
 </head>
 
 <body class="body">
-
-<div class="bg">   
 <div class="container">
+<!--top bar / link nav to home-->
+
+<a href="./">
 
 
-
-<!--top bar // banner img and welcome-->
-
-    <a href="/index.html"><div class="welcomebar">
-    <div class="iconimgbox">
-        <img class="njwwicon" src="/imgs/njwwicon.png"></img>
+    <!--njww icon-->
+    <div class="headbox">
+    
+        <div class="iconbox">
+            <img class="njwwicon" src="/imgs/njwwicon.png"></img>
+        </div>
+    
+    
+    <!--njww banner-->
+    
+    
+        <div class="bannerbox">    
+            <img class="njwwbanner" src="/imgs/njwwbanner.png"></img>
+        </div>
+    
+    
     </div>
-
-
-    <div class="welcomebox">
-    <div class="bannerbox"><img class="njwwbanner" src="/imgs/njwwbanner.png"></div>
+    </a>
+    
+    <!--hz navigation bar-->
+    
+    <div class="hzbar">
+        <div class="hztxt">
+             <a href="./cannabis">Cannabis Reviews</a> |
+             <a href="./dispensaries">Dispensaries</a> |
+             <a href="./brands">Brands</a> |
+             <a href="./about">About NJWW</a> |
+             <a href="./contact">Contact</a>
+        </div>
     </div>
-</div>
-</a>
-
-
-
-<!--navigation-->
-
-<div class="hzbar">
-    <div class="hztxt">
-        <a href="/index.html">NJWW</a> |
-        <a href="/cannabis.html">Cannabis Reviews</a> |
-        <a href="/dispensaries.html">Dispensaries</a> |
-        <a href="/brands.html">Brands</a> |
-        <a href="/about.html">About NJWW</a> |
-        <a href="/contact.html">Contact</a>
-    </div>
-</div>
-
-<br>
+    
+    <br>
 
 <!--content-->
 
-<div class="contentbox">
+<div class="budoverview">
     
     
-    <div class="nugpic">
-        <img class="sherbpic" src="/imgs/dirtysquirt.png"></div>
-    <div class="nuginfo">
+    <div class="budbox">
+        <img class="budimg" src="/imgs/dirtysquirt.png"></div>
+    <div class="budinfo">
             Strain: Dirty Squirt<br><br>
             THC: 20.02%<br><br>
-            Brand: <a href="/brands/seedandstrain.html">Seed & Strain</a><br><br>
-            Purchased From: <a href="/dispensaries/cannabistdeptford.html">Cannabist Deptford</a><br><br>
+            Brand: <a href="./brands/seedandstrain">Seed & Strain</a><br><br>
+            Purchased From: <a href="./dispensaries/cannabistdeptford">Cannabist Deptford</a><br><br>
             Purchase Date: 11/24/2023<br><br>
-            Overall Rating: 7.5/10 - ★ ★ ★ 
+            <span id="dirtysquirtRating"></span> - ★ ★ ★ ★
             
     </div>
 </div>
@@ -89,7 +94,7 @@
     
     
     <span style="font-size: 30px;">What is Dirty Squirt?</span><br><br>
-    Dirty Squirt is a strain of cannabis by <a href="/brands/seedandstrain.html">Seed & Strain</a>.<br>
+    Dirty Squirt is a strain of cannabis by <a href="./brands/seedandstrain">Seed & Strain</a>.<br>
     Its brighter green, fuzzy, and has a noticeable amount of orange hairs and trichomes.<br><br>
     
 
@@ -132,62 +137,56 @@
 
     
     <span style="font-size: 30px;">Where can I find Dirty Squirt?</span><br><br>
-    Dirty Squirt was purchased from <a href="/dispensaries/cannabistdeptford.html">Cannabist Deptford</a> for this review.<br>
+    Dirty Squirt was purchased from <a href="./dispensaries/cannabistdeptford">Cannabist Deptford</a> for this review.<br>
     Supply may be limited, and other dispensaries may carry similar product. <br><br>
 
 </div>
 
 
     
-    <div class="browsemore">
-        <br>
+<div class="browsemore">
+    <br>
 
-        <header style="font-size: 50px;">Browse More Cannabis Reviews</header>
-        
-        
-        <div class="weedbox">
-
-
-
-            <div class="nuggy1">
-                <a href="/cannabis/kushberry.html">
-                <img class="nug1" src="/imgs/kushberry.png">
-                <p>Kushberry</p><br></a>
-                <a href="/brands/seedandstrain.html">Seed & Strain</a><br>
-                 8.2/10 - ★ ★ ★ ★<br>
-                 <br>
-            </div>
+    <header style="font-size: 50px;">Browse More Cannabis Reviews</header>
     
     
-            <div class="nuggy1">
-                <a href="/cannabis/bigleaguesherb5.html">
-                <img class="nug1" src="/imgs/bigsherb.png">
-                <p>Big League Sherb #5</p><br></a>
-                <a href="/brands/tripleseven.html">Triple Seven</a><br>
-                 6.8/10 - ★ ★ ★<br>
-                 <br>
-            </div>
+    <div class="infobox">
+
+
+
+        <div class="item">
+            <a href="./cannabis/kushberry">
+            <img class="itemimg" src="/imgs/kushberry.png">
+            <p>Kushberry</p></a>
+            <a href="./brands/seedandstrain">Seed & Strain</a><br>
+            <span id="kushberryRating"></span>
+             <br>
+        </div>
+
+
+        <div class="item">
+            <a href="./cannabis/bigleaguesherb5">
+            <img class="itemimg" src="/imgs/bigsherb.png">
+            <p>Big League Sherb #5</p></a>
+            <a href="./brands/tripleseven">Triple Seven</a><br>
+            <span id="bls5Rating"></span>
+             <br>
+        </div>
 
 </div>
 
 
+    </div>
 </div>
-
-   
-    
+</body>
 
     <br>
 
-
-
-
-    
-
-    
     <footer class="footer">
         <div class="footertxt">
             newjerseyweedwizard is independently owned and operated
             by <a href="http://twitter.com/njbrooksy" target="_blank">chris brooks</a>. 
-            want to advertise your brand or product? <a href="/contact.html">contact me.</a> </div>
+            want to advertise your brand or product? <a href="./contact">contact me.</a> </div>
     </footer>
     
+</html>

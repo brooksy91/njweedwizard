@@ -27,56 +27,57 @@
 
 </head>
 
-<body class="body">
-
-<div class="bg">   
+<body class="body">   
 <div class="container">
+<!--top bar / link nav to home-->
+
+<a href="./">
 
 
-
-<!--top bar // banner img and welcome-->
-
-<a href="/index.html"><div class="welcomebar">
-    <div class="iconimgbox">
-        <img class="njwwicon" src="/imgs/njwwicon.png"></img>
+    <!--njww icon-->
+    <div class="headbox">
+    
+        <div class="iconbox">
+            <img class="njwwicon" src="/imgs/njwwicon.png"></img>
+        </div>
+    
+    
+    <!--njww banner-->
+    
+    
+        <div class="bannerbox">    
+            <img class="njwwbanner" src="/imgs/njwwbanner.png"></img>
+        </div>
+    
+    
     </div>
-
-
-    <div class="welcomebox">
-    <div class="bannerbox"><img class="njwwbanner" src="/imgs/njwwbanner.png"></div>
+    </a>
+    
+    <!--hz navigation bar-->
+    
+    <div class="hzbar">
+        <div class="hztxt">
+             <a href="./cannabis">Cannabis Reviews</a> |
+             <a href="./dispensaries">Dispensaries</a> |
+             <a href="./brands">Brands</a> |
+             <a href="./about">About NJWW</a> |
+             <a href="./contact">Contact</a>
+        </div>
     </div>
-</div>
-</a>
-
-
-
-<!--navigation-->
-
-<div class="hzbar">
-    <div class="hztxt">
-        <a href="/index.html">NJWW</a> |
-        <a href="/cannabis.html">Cannabis Reviews</a> |
-        <a href="/dispensaries.html">Dispensaries</a> |
-        <a href="/brands.html">Brands</a> |
-         <a href="/about.html">About NJWW</a> |
-         <a href="/contact.html">Contact</a>
-    </div>
-</div>
-
-<br>
-
+    
+    <br>
 <!--content-->
 
-<div class="contentbox">
+<div class="budoverview">
     
     
-    <div class="nugpic">
-        <img class="sherbpic" src="/imgs/kushberry.png"></div>
-    <div class="nuginfo">
+    <div class="budbox">
+        <img class="budimg" src="/imgs/kushberry.png"></div>
+    <div class="budinfo">
             Strain: Kushberry<br><br>
             THC: 27.44%<br><br>
-            Brand: <a href="/brands/seedandstrain.html">Seed & Strain</a><br><br>
-            Purchased From: <a href="/dispensaries/cannabistdeptford.html">Cannabist Deptford</a><br><br>
+            Brand: <a href="./brands/seedandstrain">Seed & Strain</a><br><br>
+            Purchased From: <a href="./dispensaries/cannabistdeptford">Cannabist Deptford</a><br><br>
             Purchase Date: 11/24/2023<br><br>
             <span id="kushberryRating"></span> - ★ ★ ★ ★
             
@@ -93,7 +94,7 @@
     
     
     <span style="font-size: 30px;">What is Kushberry?</span><br><br>
-    Kushberry is a strain of cannabis by <a href="/brands/seedandstrain.html">Seed & Strain</a>.<br>
+    Kushberry is a strain of cannabis by <a href="./brands/seedandstrain">Seed & Strain</a>.<br>
     It has a vibrant green color, light and fluffy, with trichomes and orange hairs dressed around it.<br><br>
     
     
@@ -140,7 +141,7 @@
 
     
     <span style="font-size: 30px;">Where can I find Kushberry?</span><br><br>
-    Kushberry was purchased from <a href="/dispensaries/cannabistdeptford.html">Cannabist Deptford</a>  for this review.<br>
+    Kushberry was purchased from <a href="./dispensaries/cannabistdeptford">Cannabist Deptford</a>  for this review.<br>
     Supply may be limited, and other dispensaries product may vary.<br><br>
 
     
@@ -152,26 +153,26 @@
     <header style="font-size: 50px;">Browse More Cannabis Reviews</header>
     
     
-    <div class="weedbox">
+    <div class="infobox">
 
 
 
-        <div class="nuggy1">
-            <a href="/cannabis/dirtysquirt.html">
-            <img class="nug1" src="/imgs/dirtysquirt.png">
+        <div class="item">
+            <a href="./cannabis/dirtysquirt">
+            <img class="itemimg" src="/imgs/dirtysquirt.png">
             <p>Dirty Squirt</p><br></a>
-            <a href="/brands/seedandstrain.html">Seed & Strain</a><br>
-             7.5/10 - ★ ★ ★<br>
+            <a href="./brands/seedandstrain">Seed & Strain</a><br>
+            <span id="dirtysquirtRating"></span><br>
              <br>
         </div>
 
 
-        <div class="nuggy1">
-            <a href="/cannabis/bigleaguesherb5.html">
-            <img class="nug1" src="/imgs/bigsherb.png">
+        <div class="item">
+            <a href="./cannabis/bigleaguesherb5">
+            <img class="itemimg" src="/imgs/bigsherb.png">
             <p>Big League Sherb #5</p><br></a>
-            <a href="/brands/tripleseven.html">Triple Seven</a><br>
-             6.8/10 - ★ ★ ★<br>
+            <a href="./brands/tripleseven">Triple Seven</a><br>
+            <span id="bls5Rating"></span><br>
              <br>
         </div>
 
@@ -179,8 +180,8 @@
 
 
     </div>
-    <br>
-    <br>
+</div>
+</body>
 
     <br>
 
@@ -188,6 +189,7 @@
         <div class="footertxt">
             newjerseyweedwizard is independently owned and operated
             by <a href="http://twitter.com/njbrooksy" target="_blank">chris brooks</a>. 
-            want to advertise your brand or product? <a href="/contact.html">contact me.</a> </div>
+            want to advertise your brand or product? <a href="./contact">contact me.</a> </div>
     </footer>
     
+</html>

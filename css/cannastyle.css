@@ -10,26 +10,35 @@ a:hover {
 .body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-}
-
-.bg {
-    margin: auto;
-    font-family: Trebuchet MS;
+    background-color: rgb(191, 191, 191)
 }
 
 .container {
-    height: 1440px;
-    width: 1000px;
+    border: 2px solid;
     margin: auto;
-    text-align: center;
-    flex: 1;
+    font-family: Trebuchet MS;
+    width: 975px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
 }
 
-.welcomebox {
-    flex: auto;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+.headbox {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 960px;
+}
+
+.njwwicon {
+    height: 150px;
+    width: 150px;
+}
+
+.njwwbanner {
+    margin-top: 35px;
+    height: 75px;
+    width: 820px;
 }
 
 .navbars {
@@ -39,10 +48,8 @@ a:hover {
 .hzbar {
     border-bottom: 2px solid;
     display: flex;
-    background-color: rgb(255, 255, 255);
-    height: 100px;
+    height: 75px;
 }
-
 
 .hztxt {
     font-size: 32px;
@@ -51,81 +58,55 @@ a:hover {
 }
 
 .contentbox {
-    background-color: rgb(255, 255, 255);
     text-align: center;
     flex: auto;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid;
 }
 
-
-.welcomebar {
-    display: flex
-}
-
-.njwwimg {
+.contentbox2 {
+    text-align: center;
+    flex: auto;
+    height: 550px;
     display: flex;
-    height: 125px;
-    height: 125px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.njwwbanner {
-    height: 75px;
-    width: 775px;
-}
-
-.bannerbox {
-    margin-top: 25px;
-}
-
-.nug1,
-.nug2 {
-    height: 200px;
-    width: 250px;
-    margin: 30px;
-}
-
-.weedbox {
+.itembox {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     font-size: 25px;
 }
 
-.weedbox p {
-    margin: -15px;
+.item {
+    height: 200px;
+    width: 250px;
+    margin: 25px;
 }
 
-.weedinfobox {
-    display: flex;
+.itemimg {
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
 }
 
-.njwwicon {
-    height:125px;
-    width: 100px;
-}
-
-.sherbpic {
-    width: 400px;
-    height: 400px;
-    margin: 50px;
+.itemimg:hover {
+    border: 2px solid;
 }
 
 .footer {
-    background-color: rgb(255, 255, 255);
-    height: 20px;
-    width: 100%;
-    margin-top: auto;
-}
-
-.footertxt {
+    font-family: Gadugi;
+    color: rgb(117, 117, 117);
+    align-items: center;
+    justify-content: center;
+    display: flex;
     text-align: center;
-    color: rgb(89, 89, 89);
 }
 
-.footertxt a {
+.footer a {
     color: rgb(184, 107, 7);
 }
