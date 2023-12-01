@@ -1,10 +1,18 @@
+
+
 {
+
         
-    "bls5Rating": 6.8,
+    "bls5Rating": "6.8/10",
 
-    "dirtysquirtRating": 7.5,
+    "dirtysquirtRating": "7.5/10",
 
-    "kushberryRating": 8.2
+    "kushberryRating": "8.2/10",
+
+
+
+    "note": "ratings must be represented as strings to no break file"
   
 }
-  
+
+

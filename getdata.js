@@ -1,12 +1,25 @@
-fetch('ratings.json')
+fetch('/ratings.json')
     .then(response => response.json())
     .then(data => {
-        // Manipulate the data as needed
         console.log(data);
 
-            // Display data in the HTML document
-            document.getElementById('bls5Rating').innerText = data.bls5Rating;
-            document.getElementById('dirtysquirtRating').innerText = data.dirtysquirtRating;
-            document.getElementById('kushberryRating').innerText = data.kushberryRating;
-        })
-        .catch(error => console.error('Error:', error));
+       
+        const dirtysquirtRatingElement = document.getElementById('dirtysquirtRating');
+        if (dirtysquirtRatingElement) {
+            dirtysquirtRatingElement.innerText = data.dirtysquirtRating;
+        }
+
+       
+        const kushberryRatingElement = document.getElementById('kushberryRating');
+        if (kushberryRatingElement) {
+            kushberryRatingElement.innerText = data.kushberryRating;
+        }
+
+        const bls5RatingElement = document.getElementById('bls5Rating');
+        if (kushberryRatingElement) {
+            bls5RatingElement.innerText = data.bls5Rating;
+        }
+
+        // Add similar checks for other elements if needed
+    })
+    .catch(error => console.error('Error:', error));

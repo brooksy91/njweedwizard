@@ -11,29 +11,35 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(232, 232, 232);
-}
-
-.bg {
-    margin: auto;
-    font-family: Trebuchet MS;
+    background-color: rgb(191, 191, 191)
 }
 
 .container {
-    flex: 1;
-
+    border: 2px solid;
+    margin: auto;
+    font-family: Trebuchet MS;
+    width: 975px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
 }
 
-.welcomebar {
-    display: flex
-
+.headbox {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 960px;
 }
 
-.welcomebox {
-    flex: auto;
-    height: 120px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+.njwwicon {
+    height: 150px;
+    width: 150px;
+}
+
+.njwwbanner {
+    margin-top: 35px;
+    height: 75px;
+    width: 820px;
 }
 
 .navbars {
@@ -43,10 +49,8 @@ a:hover {
 .hzbar {
     border-bottom: 2px solid;
     display: flex;
-    background-color: rgb(255, 255, 255);
     height: 75px;
 }
-
 
 .hztxt {
     font-size: 32px;
@@ -55,7 +59,6 @@ a:hover {
 }
 
 .contentbox {
-    background-color: rgb(255, 255, 255);
     text-align: center;
     flex: auto;
     height: 450px;
@@ -66,40 +69,12 @@ a:hover {
 }
 
 .contentbox2 {
-    background-color: rgb(255, 255, 255);
     text-align: center;
     flex: auto;
     height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid;
-}
-
-.njwwicon {
-    background-color: white;
-    width: 100px;
-}
-
-.njwwimg {
-    display: flex;
-    height: 125px;
-    height: 125px;
-}
-
-.njwwbanner {
-    height: 75px;
-    width: 775px;
-}
-
-.bannerbox {
-    margin-top: 25px;
-}
-
-.item {
-    height: 200px;
-    width: 250px;
-    margin: 30px;
 }
 
 .itembox {
@@ -109,30 +84,27 @@ a:hover {
     font-size: 25px;
 }
 
+.item {
+    height: 200px;
+    width: 250px;
+    margin: 30px;
+}
+
 .itemimg {
+    border-radius: 10px;
     width: 260px;
     height: 200px;
 }
 
-.weedbox p {
-    margin: -15px;
-}
-
-.weedinfobox {
-    display: flex;
-}
-
 .footer {
-    background-color: rgb(255, 255, 255);
-    height: 20px;
-    width: 100%;
-    margin-top: auto;
+    font-family: Gadugi;
+    color: rgb(117, 117, 117);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }
 
-.footertxt {
-    color: rgb(89, 89, 89);
-}
-
-.footertxt a {
+.footer a {
     color: rgb(184, 107, 7);
 }

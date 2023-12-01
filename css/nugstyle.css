@@ -136,19 +136,16 @@ a:hover {
     width: 100px;
 }
 
-.footer {
-   margin-top: auto;
-   text-align: center;
-   justify-content: center;
-}
 
 .sherbpic {
+    border-radius: 10px;
     width: 450px;
     height: 400px;
     margin: 50px;
 }
 
 .footer {
+    text-align: center;
     background-color: rgb(255, 255, 255);
     height: 20px;
     width: 100%;
