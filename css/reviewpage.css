@@ -8,7 +8,7 @@ a:hover {
 }
 
 .body {
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(191, 191, 191)
 }
 
 .bg {
@@ -106,9 +106,10 @@ a:hover {
 }
 
 .footer {
+    text-align: center;
     margin: auto;
     background-color: rgb(194, 194, 194);
-    height: 20pxpx;
+    height: 20px;
     width: 1000px;
 }
 
