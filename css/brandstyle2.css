@@ -142,6 +142,7 @@ a:hover {
 }
 
 .footer {
+    text-align: center;
     background-color: rgb(255, 255, 255);
     height: 20px;
     width: 100%;
