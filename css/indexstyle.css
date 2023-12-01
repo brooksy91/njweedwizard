@@ -87,13 +87,17 @@ a:hover {
 .item {
     height: 200px;
     width: 250px;
-    margin: 30px;
+    margin: 25px;
 }
 
 .itemimg {
     border-radius: 10px;
     width: 260px;
     height: 200px;
+}
+
+.itemimg:hover {
+    border: 2px solid;
 }
 
 .footer {
