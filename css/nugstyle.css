@@ -125,6 +125,7 @@ a:hover {
 }
 
 .infobox {
+    height: 350px;
     display: flex;
 }
 
