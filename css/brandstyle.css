@@ -60,7 +60,7 @@ a:hover {
 .contentbox {
     text-align: center;
     flex: auto;
-    height: 550px;
+    height: 475px;
     display: flex;
     flex-direction: column;
     align-items: center;
