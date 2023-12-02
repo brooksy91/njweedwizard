@@ -68,6 +68,15 @@ a:hover {
     border-bottom: 2px solid;
 }
 
+.contentbox2 {
+    text-align: center;
+    flex: auto;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .storeimg {
     border: 2px solid;
     border-radius: 10px;
