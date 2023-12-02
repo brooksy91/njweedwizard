@@ -16,9 +16,14 @@ fetch('/ratings.json')
         }
 
         const bls5RatingElement = document.getElementById('bls5Rating');
-        if (kushberryRatingElement) {
+        if (bls5RatingElement) {
             bls5RatingElement.innerText = data.bls5Rating;
         }
+
+
+        
+
+
 
         // Add similar checks for other elements if needed
     })

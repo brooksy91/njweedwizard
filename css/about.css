@@ -9,6 +9,7 @@ a:hover {
 
 .body {
     background-color: rgb(232, 232, 232);
+    font-family: Trebuchet MS;
 }
 
 .bg {
@@ -105,6 +106,7 @@ a:hover {
 }
 
 .footer {
+    text-align: center;
     background-color: rgb(255, 255, 255);
     height: 20px;
     width: 100%;

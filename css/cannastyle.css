@@ -60,7 +60,7 @@ a:hover {
 .contentbox {
     text-align: center;
     flex: auto;
-    height: 550px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,17 +78,20 @@ a:hover {
 .itembox {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 50px;
     font-size: 25px;
 }
 
 .item {
-    height: 200px;
+    height: 375px;
     width: 250px;
     margin: 25px;
+    box-sizing: border-box;
 }
 
 .itemimg {
+    border: 1px solid;
     border-radius: 10px;
     width: 260px;
     height: 200px;
