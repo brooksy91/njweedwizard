@@ -72,7 +72,7 @@ a:hover {
 .browsemore {
     text-align: center;
     flex: auto;
-    height: fit-content;
+    height: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +82,10 @@ a:hover {
     height: flex;
     text-align: left;
     border-bottom: 2px solid;
+}
+
+.reviewtxt {
+    margin-left: 5px;
 }
 
 .reviewbox a {
@@ -105,11 +109,6 @@ a:hover {
 
 .itemimg:hover {
     border: 2px solid;
-}
-
-.reviewbox {
-    margin-left: 5px;
-    border-bottom: 2px solid;
 }
 
 .budbox {
