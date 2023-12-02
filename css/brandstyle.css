@@ -89,6 +89,7 @@ a:hover {
 }
 
 .itemimg {
+    border: 1px solid;
     border-radius: 10px;
     width: 260px;
     height: 200px;
