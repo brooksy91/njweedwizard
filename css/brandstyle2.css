@@ -61,7 +61,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     flex: auto;
-    height: 450px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,7 +72,7 @@ a:hover {
     border-bottom: 2px solid;
     text-align: center;
     flex: auto;
-    height: 525px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;

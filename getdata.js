@@ -20,11 +20,17 @@ fetch('/ratings.json')
             bls5RatingElement.innerText = data.bls5Rating;
         }
 
+        const superlavbutter1RatingElement = document.getElementById('superlavbutter1Rating');
+        if (superlavbutter1RatingElement) {
+            superlavbutter1RatingElement.innerText = data.superlavbutter1Rating;
+        }
 
-        
+        const whitegrapefruitcookies7RatingElement = document.getElementById('whitegrapefruitcookies7Rating');
+        if (whitegrapefruitcookies7RatingElement) {
+            whitegrapefruitcookies7RatingElement.innerText = data.whitegrapefruitcookies7Rating;
+        }
 
 
 
-        // Add similar checks for other elements if needed
     })
     .catch(error => console.error('Error:', error));

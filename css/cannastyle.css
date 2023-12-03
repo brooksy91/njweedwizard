@@ -18,7 +18,7 @@ a:hover {
     margin: auto;
     font-family: Trebuchet MS;
     width: 975px;
-    height: fit-content;
+    height: 1175px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
@@ -76,17 +76,40 @@ a:hover {
 }
 
 .itembox {
+    width: 975px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 25px;
+}
+
+.sortbox {
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+}
+
+.sortbox a {
+    text-decoration: none;
+}
+
+.sortbox:hover {
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+}
+
+
+.sortrank,
+.sortrecent {
+    border-radius: 10px;
+    border: 2px solid;
+    width: 235px;
 }
 
 .item {
     height: 375px;
-    width: 250px;
-    margin: 25px;
+    width: 325px;
     box-sizing: border-box;
 }
 
